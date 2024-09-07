@@ -54,10 +54,6 @@ function Calculator() {
 
                 <Button value="1" onClick={() => handleNumberClick('1')}></Button>{' '}
                 <Button value="+" onClick={() => handleOperationClick('+')}></Button>{' '}
-
-            <Button value="1" onClick={() => setDisplayValue(displayValue + '1')} />
-            <Button value='+' onClick={() => console.log('Logica para la suma')} />
-
         </div>
     );
 }
